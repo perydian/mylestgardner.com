@@ -1,0 +1,85 @@
+header {
+    background-color: rgb(32,32, 32);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    z-index: 1000;
+    padding: 10px;
+}
+
+header ul {
+    margin:15px 0px;
+    padding: 0px 50px;
+    text-align: center;;
+}
+header li {
+    display: inline-block;
+    margin: 20px 20px;
+  
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding : 10px 20px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 10px;;
+    text-align: center;
+
+
+    
+}
+header li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+
+}
+.local {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(64, 64, 64);
+    overflow: scroll;
+    margin: 0;
+    padding:10;
+    
+}
+main {
+    padding: 20px;
+    text-align: center;
+    height: 675px;
+    
+    
+}
+main img {
+    
+    border-radius: 50px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+
+.pdf {
+    aspect-ratio: 4 / 3;
+    height: 1000px;
+}
+
+ 
